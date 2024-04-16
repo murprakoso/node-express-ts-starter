@@ -1,0 +1,9 @@
+{
+    "ignore": [".git", "node_modules", "dist"],
+    "watch": ["./src"],
+    "exec": "yarn build && yarn start:prod",
+    "ext": "ts",
+    "events": {
+        "start": "cls || clear"
+    }
+}
